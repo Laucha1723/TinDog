@@ -186,7 +186,7 @@ div.feature-item p{
 
 /* MEDIA QUERIES */
 
-@media (max-width: 990px){
+@media (max-width: 1111px){
   .iphone{
     position: static;
     transform: rotate(0deg);
@@ -197,10 +197,18 @@ div.feature-item p{
   }
 }
 
-@media (max-width: 1435px) and (min-width: 990px){
+@media (max-width: 1195px) and (min-width: 1447px){
   .iphone{
     transform: rotate(10deg);
-    right: 8%;
+    right: 21%;
+  }
+
+}
+
+@media (max-width: 1447px) and (min-width: 1111px){
+  .iphone{
+    transform: rotate(6deg);
+    right: 16%;
   }
 
 }
